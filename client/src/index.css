@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  margin: 0;
+  font-family:'Lato','sans-serif';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.card-img{
+  height: 160px;
+}
+
+.spinner{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+
+.login{
+  background-color: #F5F5F5;
+  border:1px solid #e9e9e9;
+  padding-top: 10px;
+  padding-bottom :10px;
+}
